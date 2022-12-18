@@ -26,5 +26,3 @@ Page![Picture5](https://user-images.githubusercontent.com/80488842/175994005-6e7
 ### Notification Telegram
 ![image](https://user-images.githubusercontent.com/80488842/208310376-1e87fd3e-96fc-4931-95ca-e790c5f9d4ce.png)
 
-
-### Object Module 
