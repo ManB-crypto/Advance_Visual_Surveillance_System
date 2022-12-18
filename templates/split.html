@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Landing Page</title>
+   
+
+<link rel="stylesheet" href="static/css/all.min.css" />
+<link rel="stylesheet" href="static/css/bootstrap.min.css" />
+<link rel="stylesheet" href="static/css/templatemo-style.css" />
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://code.iconify.design/2/2.2.0/iconify.min.js">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />    
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+.block {
+  display: block;
+  width: 40%;
+  height: 1000%;
+  border: none;
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.block:hover {
+  background-color: #ddd;
+  color: black;
+}
+body {
+  font-family: Arial;
+  color: white;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: #111;
+}
+
+.right {
+  right: 0;
+  background-color: red;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+</style>
+</head>
+<body>
+  <div class="parallax-window" data-parallax="scroll">
+    <div class="container-fluid">
+      <div class="row tm-brand-row">
+        <div class="col-lg-4 col-11">
+          <div class="tm-brand-container tm-bg-white-transparent">
+            <i class="fas fa-2x fa-pen tm-brand-icon"></i>
+            <div class="tm-brand-texts">
+              <h1 class="text-uppercase tm-brand-name">ManB</h1>
+              <p class="small">Surveillance System</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-8 col-1">
+          <div class="tm-nav">
+            <nav class="navbar navbar-expand-lg navbar-light tm-bg-white-transparent tm-navbar">
+              <button class="navbar-toggler" type="button"
+                data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <div class="tm-nav-link-highlight"></div>
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <div class="tm-nav-link-highlight"></div>
+                    <a class="nav-link" href="/object">Object</a>
+                  </li>
+                  <li class="nav-item">
+                    <div class="tm-nav-link-highlight"></div>
+                    <a class="nav-link" href="motion.html">Motion</a>
+                  </li>
+                  <li class="nav-item">
+                    <div class="tm-nav-link-highlight"></div>
+                    <a class="nav-link" href="video.html">Real-time</a>
+                  </li>
+                  <li class="nav-item">
+                    <div class="tm-nav-link-highlight"></div>
+                    <a class="nav-link" href="instruct.html">Instruction</a>
+                  </li>
+                  <li class="nav-item">
+                    <div class="tm-nav-link-highlight"></div>
+                    <a class="nav-link" href="https://github.com/ManB-crypto">Github</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+<a href="https://www.youtube.com/results?search_query=Raspberry+Pi+Smart+Camera">
+    <button class="block">
+        <div class="split left">
+        <div class="centered">
+            <h2> OFF Button</h2>
+        </div>
+        </div></button></a>
+<a href="https://www.youtube.com/results?search_query=Raspberry+Pi+Smart+Camera">
+    <button class="block">
+        <div class="split right">
+        <div class="centered">
+            <h2> ON Button</h2>
+        </div>
+        </div></button></a>
+     
+</body>
+</html> 

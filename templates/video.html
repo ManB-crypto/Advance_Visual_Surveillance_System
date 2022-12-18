@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<head>
+  <link rel="stylesheet" href="static/css/navibar.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+<style>
+.b {
+  background-color: black;
+  position: sticky;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  bottom: 0px;
+
+}
+
+.b:hover{
+  background-color: #eb7132;
+}
+</style>
+</head>
+
+  <body  style="background-color:#151515">
+    <input type="checkbox" id="active">
+    <label for="active" class="menu-btn"><span></span></label>
+    <label for="active" class="close"></label>
+    <div class="wrapper">
+      <ul>
+        <li><a href="/profile">Home</a></li>
+        <li><a href="/oboff">Object</a></li>
+        <li><a href="/mmoff">Motion</a></li>
+        <li><a href="/video">Stream</a></li>
+        <li><a href="/instruct">Instruction</a></li>
+</ul>
+</div>
+<div class="content">
+  <div class="title" style="text-align: center; color:#eb7132;"><h2> Live streaming</h2><i class="material-icons" style="font-size:62px">wifi_tethering</i></div>
+<p>
+
+  <div>
+    <p></p>
+    <img src="{{ url_for('video') }}" width="100%"/>
+</div></p>
+<div>
+  <a href="/videoa">
+  <button class ="b" > Alert Sound </button> </a>
+  <a href="tel:01137145153" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});">
+    <button class ="b" > Contact </button> </a>
+  
+
+</div> 
+</div>
+   
+            
+    </body>
+
+
+</html>
+
+
+

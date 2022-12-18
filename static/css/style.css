@@ -1,0 +1,77 @@
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  height: 50px;
+}
+ 
+.switch input {
+  display:none;
+}
+ 
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: red;
+  transition: .4s;
+}
+ 
+ 
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 42px;
+  width: 40px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: .4s;
+}
+ 
+input:checked + .slider {
+  background-color: #00FF00;
+}
+ 
+input:focus + .slider {
+  box-shadow: 0 0 1px #00FF00;
+}
+ 
+input:checked + .slider:before {
+  transform: translateX(52px);
+}
+ 
+.slider.round {
+  border-radius: 34px;
+}
+ 
+.slider.round:before {
+  border-radius: 50%;
+}
+ 
+#box {
+  padding-top:50px;
+}
+ 
+.heading {
+  font-size:40px;
+  font-weight:bold;
+  font-family:Impact, Serif;
+}
+ 
+body {
+  background-color: white;
+}
+ 
+.centereddiv {
+  padding-top:20px;
+}
+ 
+.subtitle {
+  padding-top:20px;
+  font-family:Times, Serif;
+  font-size:40px;
+}
